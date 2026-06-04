@@ -123,16 +123,49 @@ h1, h2, h3, .gta-font {
     width: 100%;
 }
 
-.max-width-notice {
-    max-width: 600px;
+.glass-card-db {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.3s ease;
 }
 
-.text-secondary {
-    color: rgba(255, 255, 255, 0.3) !important;
+.glass-card-db:hover {
+    border-color: #b71c1c;
+    box-shadow: 0 10px 25px rgba(183, 28, 28, 0.2);
 }
 
-.text-dark-opaque-title {
-    color: rgba(0, 0, 0, 0.4) !important;
+.card-img-filter {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    filter: sepia(1) saturate(3) hue-rotate(330deg) brightness(0.6);
+}
+
+.card-glass-title {
+    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0));
+}
+
+.table {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+}
+
+.img-placeholder-wrapper {
+    background-color: #000000;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    height: 180px;
+}
+
+.tutorial-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.glass-card:hover .tutorial-img {
+    transform: scale(1.08);
 }
 
 .footer-custom {

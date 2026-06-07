@@ -108,9 +108,12 @@ h1, h2, h3, .gta-font {
 
 .carousel-img-filter {
     height: 550px;
-    object-fit: cover;
+    width: 100%;
+    object-fit: contain; 
+    background-color: #000000; 
     filter: grayscale(0.2) contrast(1.2) brightness(0.7);
 }
+
 
 .glass-caption {
     background: rgba(183, 28, 28, 0.4);
